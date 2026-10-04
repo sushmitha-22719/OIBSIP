@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    line-height: 1.7;
+    background: #f5efe6;
+    color: #2c1f1f;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: #30201c;
+    color: white;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 550px;
+    height: 450px;
+    object-fit: contain;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.about,
+.timeline,
+.quote {
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 15px;
+    background: white;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #5a3028;
+}
+
+.about p {
+    margin-bottom: 15px;
+}
+
+.timeline-item {
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.timeline-item:last-child {
+    border-bottom: none;
+}
+
+.timeline-item h3 {
+    color: #7b3f2c;
+    margin-bottom: 5px;
+}
+
+.quote {
+    text-align: center;
+    background: #30201c;
+    color: white;
+}
+
+.quote h2 {
+    color: white;
+}
+
+blockquote {
+    font-size: 22px;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #1e1513;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 38px;
+    }
+
+    .hero img {
+        height: 300px;
+    }
+
+    .about,
+    .timeline,
+    .quote {
+        padding: 20px;
+    }
+}
